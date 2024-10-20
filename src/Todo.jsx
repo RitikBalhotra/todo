@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Todo = () => {
   const [todos, setTodos] = useState([]);
   const [inputVal, setInputVal] = useState("");
-  const [editId, setEditId] = useState(null); // New state to track which todo is being edited
+  const [editId, setEditId] = useState(null); 
 
   const addOrUpdateTodo = () => {
     if (inputVal.trim() !== "") {
